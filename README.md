@@ -1,1 +1,1 @@
-# 100day_scala_coding
+# Learning Scala OOPs and Functional Programming Concepts in depth
