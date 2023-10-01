@@ -20,6 +20,7 @@ object Function2 {
 
     val animalsLifeSpan:Map[String,Int] = Map("cats" -> 15,"dogs" -> 10, "rabbit" -> 12)
 
+
     println("Please provide the animal age to know the life span")
     val userAnimal = StdIn.readLine().toString
 
