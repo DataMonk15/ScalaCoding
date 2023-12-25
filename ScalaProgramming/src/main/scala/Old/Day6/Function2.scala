@@ -1,4 +1,4 @@
-package Day6
+package Old.Day6
 
 import scala.io.StdIn
 

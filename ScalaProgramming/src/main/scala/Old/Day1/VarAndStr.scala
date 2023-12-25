@@ -1,4 +1,5 @@
-package Day1
+package Old.Day1
+
 object VarAndStr {
   def main(args: Array[String]): Unit = {
     /* Different types of string comments

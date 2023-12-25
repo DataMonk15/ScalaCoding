@@ -1,4 +1,4 @@
-package Day7
+package Old.Day7
 
 import scala.annotation.tailrec
 

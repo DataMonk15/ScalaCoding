@@ -1,4 +1,4 @@
-package Day7
+package Old.Day7
 
 import scala.annotation.tailrec
 
@@ -23,6 +23,6 @@ object tailrecursion2 {
       }
     }
 
-    println(reverseList(List(1,2,3,4,5,6),Nil))
+    reverseList(List(1,2,3,4,5,6),Nil)
   }
 }

@@ -1,4 +1,4 @@
-package Day2
+package Old.Day2
 
 import java.time.Year
 import scala.io.StdIn

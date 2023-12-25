@@ -1,4 +1,4 @@
-package Day1
+package Old.Day1
 
 object HelloWorld{
   def main(args: Array[String]): Unit = {
