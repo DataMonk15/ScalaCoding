@@ -1,4 +1,4 @@
-package Day5
+package Old.Day5
 
 import scala.collection.mutable.ArrayBuffer
 import scala.io.StdIn

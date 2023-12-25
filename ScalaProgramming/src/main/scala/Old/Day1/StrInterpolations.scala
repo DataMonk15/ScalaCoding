@@ -1,4 +1,5 @@
-package Day1
+package Old.Day1
+
 object StrInterpolations {
   def main(args: Array[String]): Unit = {
     /** different string interpolations
