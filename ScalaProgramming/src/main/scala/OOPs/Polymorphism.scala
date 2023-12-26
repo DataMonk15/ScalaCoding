@@ -1,7 +1,6 @@
 package OOPs
 
 class PolyPerson(name:String,designation:String,age:Int){
-
   def this(name:String,age:Int) = this(name,"Software Developer",age)
   def workmode(name:String,age:Int) = println(s"hello $name and your age is $age and working as $designation")
 }
