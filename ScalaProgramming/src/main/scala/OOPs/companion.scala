@@ -8,6 +8,7 @@ class companion(val name:String, age:Int){
   private val y = 20
   def multiplier(a:Int,b:Int):Int = a*b
 }
+
 object companion {
   def main(args: Array[String]): Unit = {
     // new keyword is required to create an instance of a class
