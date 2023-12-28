@@ -20,6 +20,7 @@ class AbstractDog(name:String) extends AbstractAnimal{
 // mixin
 trait Carnivore{
   def eat(animal:AbstractDog):Unit
+  def preferredMeal: String = "fresh meat"
 }
 
 class Crocodile extends AbstractDog("GoldenRetreiver") with Carnivore{
@@ -28,7 +29,10 @@ class Crocodile extends AbstractDog("GoldenRetreiver") with Carnivore{
   def eat(animal: AbstractDog): Unit = {
     println(s"I'm a croc and I'm eating ${animal.creatureType}")
     animal.eat()
+
+
   }
+  override def preferredMeal: String = "dog"
 }
 
 object AbstractDataTypes {
