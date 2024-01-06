@@ -16,6 +16,7 @@ class MapGenerics[K,V](entries: Map[K,V]){
 }
 
 object MapGenerics {
+
   def main(args: Array[String]): Unit = {
     val newMap = new MapGenerics[Int,String](Map(1 -> "naveen", 2 -> "sai"))
     println(newMap.keyExists(1))
@@ -25,4 +26,5 @@ object MapGenerics {
     println(newMap)
     println(newMap.toString())
   }
+
 }
